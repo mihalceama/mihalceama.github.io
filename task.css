@@ -1,0 +1,115 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+.head {
+ animation-name: jumpHead;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+
+}
+
+@keyframes jumpHead {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, -20px);
+  }
+}
+
+.body {
+  animation-name: jumpBody;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+  
+}
+
+@keyframes jumpBody {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, -20px);
+  }
+}
+
+
+.left.hand {
+  animation-name: jumpLeftHand;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+}
+
+@keyframes jumpLeftHand {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, -20px);
+  }
+}
+
+
+.right.hand {
+  animation-name: jumpRightHand;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+
+}
+
+@keyframes jumpRightHand {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, -20px);
+  }
+}
+
+.left.foot {
+  animation-name: jumpLeftFoot;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+
+}
+
+@keyframes jumpLeftFoot {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, -20px);
+  }
+}
+
+
+
+.right.foot {
+  animation-name: jumpRightFoot;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+}
+
+@keyframes jumpRightFoot {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, -20px);
+  }
+}
